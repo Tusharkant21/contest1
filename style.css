@@ -1,0 +1,118 @@
+body {
+  position: relative;
+  width: 1728px;
+  height: 2358px;
+
+  background: #ffffff;
+}
+
+.topmost {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1643px;
+  height: 648.57px;
+  left: 38px;
+  top: 47px;
+
+  border: 2px solid #000000;
+}
+topmost > topmostinner {
+  position: absolute;
+  width: 1540.51px;
+  height: 613.54px;
+  left: 89px;
+  top: 94.46px;
+
+  /* font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px; */
+
+  color: #000000;
+}
+
+.topmostinner h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-decoration-line: underline;
+}
+
+.topmostinner p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48.41px;
+}
+
+.topmost a {
+  color: #000;
+  font-weight: bold;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48.41px;
+  text-decoration-line: underline;
+}
+
+.image-section {
+  position: absolute;
+  width: 962px;
+  height: 77px;
+  left: 58px;
+  top: 742px;
+}
+.image-section h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-decoration-line: underline;
+}
+
+.image-section img {
+  width: 1051px;
+  height: 762px;
+  left: 58px;
+  top: 874p;
+}
+.image-section a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.trivia-section {
+  position: absolute;
+  width: 1623px;
+  height: 469px;
+  left: 58px;
+  top: 1795px;
+}
+
+.trivia-section h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-decoration-line: underline;
+
+  color: #000000;
+}
+
+.trivia-section li {
+  font-size: 18px;
+  line-height: 1.5;
+}
